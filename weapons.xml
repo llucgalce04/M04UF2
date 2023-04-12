@@ -1,0 +1,19 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+        <weapon id="1">
+                <name>AK-47</name>
+                <damage>47</damage>
+        </weapon>
+        <weapon id="2">
+                <name>M16A4</name>
+                <damage>41</damage>
+        </weapon>
+        <weapon id="3">
+                <name>SCAR-L</name>
+                <damage>43</damage>
+        </weapon>
+        <weapon id="4">
+                <name>UMP9</name>
+                <damage>39</damage>
+        </weapon>
+</weapons>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<characters>
+
+<character id_character= "1">
+    <name>Bowler</name>
+    <health>0</health>
+    <damage>50</damage>
+    <level>5</level>
+    <rare>500</rare>
+	</character>
+
+<character id_character= "2">
+    <name>Poción de curación</name>
+    <health>50</health>
+    <damage>0</damage>
+    <level>3</level>
+    <rare>100</rare>
+ </character>
+
+  <character id_character= "3">
+    <name>Mega Pekka</name>
+    <health>1000</health>
+    <damage>1000</damage>
+    <level>30</level>
+    <rare>1000</rare>
+ </character>
+
+  <character id_character= "4">
+  	<name>Rey Barbaro</name>
+	<health>3200</health>
+	<damage>250</damage>
+	<level>35</level>
+	<rare>10000</rare>
+ </character>
+
+</characters>

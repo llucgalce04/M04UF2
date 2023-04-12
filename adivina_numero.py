@@ -1,9 +1,14 @@
+#!/usr/bin/python3
+
+
 import random
 
 numero_adivinar = random.randrange(100)
 #print(numero_adivinar)
 
+archivo = open("intro")
 
+print(archivo.read())
 
 teclado = input("Introduce tu numero: ")
 

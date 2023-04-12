@@ -1,6 +1,3 @@
-echo "Escriu el Commit"
-COMMIT= read
-
 git add -A .
-git commit -m \"$COMMIT\"
+git commit -m "Todo hecho"
 git push

@@ -1,3 +1,6 @@
+echo "Escriu el Commit"
+COMMIT= read
+
 git add -A .
-git commit -m "Juegito Python"
+git commit -m \"$COMMIT\"
 git push

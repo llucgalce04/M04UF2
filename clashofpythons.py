@@ -13,7 +13,7 @@ diccionario = xmltodict.parse(xml_file.read())
 
 numero = int(input("Introduce un numero del 1 al 3: "))-1
 #arrays, diccionarios --> nombre generuco tupla
-character = diccionario["characters"]["character"][numero]
+ character = diccionario["characters"]["character"][numero]
 print("Nombre: "+character["name"])
 print("Daño: "+character["damage"])
 print("Vida: "+character["health"])

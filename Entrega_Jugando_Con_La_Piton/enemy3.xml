@@ -5,7 +5,7 @@
 <enemy id_enemy= "3">
     <name>Guillem</name>
     <health>15</health>
-    <damage>Physical</damage>
+    <damage>10</damage>
     <level>5</level>
     </enemy>
 </enemys>

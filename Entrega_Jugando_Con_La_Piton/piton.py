@@ -21,6 +21,8 @@ enemy1= diccionario["enemys"]["enemy"]
 vida= int(30)
 
 vida_enemy1= int((enemy1["health"]))
+daño_enemy= int((enemy1["damage"]))
+nombre_enemy1= str((enemy1["name"]))
 
 while True:
 
@@ -33,12 +35,12 @@ while True:
 	elif teclado == "ataca":
 
 		daño= int(random.randrange(5))
-		daño_enemy1= int(random.randrange(2))
+		daño_enemy1= int(random.randrange(daño_enemy))
 
 		vida_enemy1= vida_enemy1 - daño
 		vida= vida - daño_enemy1
 		print ("Le has sacado " + str(daño) + " de vida, ahora el enemigo tiene: "+ str(vida_enemy1) + " de vida\n")
-		print ("La piton tambien te ha atacado, te ha sacado "+ str(daño_enemy1) + " de vida, ahora tienes " + str(vida) + " de vida\n")
+		print (str(nombre_enemy1) + " tambien te ha atacado, te ha sacado "+ str(daño_enemy1) + " de vida, ahora tienes " + str(vida) + " de vida\n")
 	
 	elif teclado == "stats":
 		
@@ -55,13 +57,10 @@ while True:
 	elif teclado == "salir":
 		break
 	
-	if vida == 0:
+	if vida <= 0:
 		print("Mala suerte papu")
 		break
 
-	elif vida_enemy1 == 0:
+	elif vida_enemy1 <= 0:
 		print("Acabaste con el")
 		break
-		
-
-

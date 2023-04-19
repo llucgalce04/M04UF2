@@ -3,10 +3,9 @@
 <enemys>
 
 <enemy id_enemy= "1">
-    <name>La Piton</name>
-    <health>15</health>
-    <damage>2</damage>
-    <level>5</level>
+    <name>Pablo</name>
+    <health>5</health>
+    <damage>12</damage>
+    <level>200</level>
     </enemy>
 </enemys>
-

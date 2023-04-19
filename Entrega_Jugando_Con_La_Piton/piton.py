@@ -4,11 +4,12 @@ import xmltodict
 import random
 
 
-xml_file_enemy1= open("enemy1.xml", "r")
+enemy_files= ["enemy1.xml", "enemy2.xml", "enemy3.xml"]
+random_file= random.choice(enemy_files)
 
-diccionario = xmltodict.parse(xml_file_enemy1.read())
+xml_file_enemy= open(random_file, "r")
 
-
+diccionario = xmltodict.parse(xml_file_enemy.read())
 
 enemy1= diccionario["enemys"]["enemy"]
 ("Nombre: "+enemy1["name"])
@@ -36,8 +37,8 @@ while True:
 
 		vida_enemy1= vida_enemy1 - daño
 		vida= vida - daño_enemy1
-		print ("Le has sacado " + str(daño) + " de vida, ahora el enemigo tiene: "+ str(vida_enemy1) + " de vida")
-		print ("La piton tambien te ha atacado, te ha sacado "+ str(daño_enemy1) + " de vida, ahora tienes " + str(vida) + " de vida")
+		print ("Le has sacado " + str(daño) + " de vida, ahora el enemigo tiene: "+ str(vida_enemy1) + " de vida\n")
+		print ("La piton tambien te ha atacado, te ha sacado "+ str(daño_enemy1) + " de vida, ahora tienes " + str(vida) + " de vida\n")
 	
 	elif teclado == "stats":
 		

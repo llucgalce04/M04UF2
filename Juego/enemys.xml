@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<enemies>
-	<enemy>
-		<name>Pablo</name>
-		<damage>31</damage>
-		<health>15</health>
-	</enemy>
-</enemies>

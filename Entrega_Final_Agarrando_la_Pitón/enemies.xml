@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enemies>
+	<enemy>
+		<name>El Gorila</name>
+		<damage>5</damage>
+		<health>20</health>
+		<description>En lo profundo de la jungla, te encontrarás cara a cara con un coloso de fuerza descomunal: el temible Gorila de la Selva. Con su imponente presencia y poderosos golpes, desafiará tu valentía y habilidades. ¿Podrás enfrentar a esta bestia y triunfar en tu búsqueda por la victoria </description>
+	</enemy>
+	<enemy>
+		<name>La araña</name>
+		<damage>13</damage>
+		<health>30</health>
+		<description>En las sombras de la oscuridad, te enfrentarás a un enemigo sigiloso y mortífero: la terrorífica Araña Venenosa. Con sus múltiples patas y tejedoras de trampas letales, pondrá a prueba tus reflejos y nervios de acero. ¿Te atreverás a desafiar a esta criatura de pesadilla y sobrevivir a su veneno letal en tu camino hacia la gloria?</description>
+	</enemy>
+	<enemy>
+		<name>El Cocodrilo</name>
+		<damage>20</damage>
+		<health>40</health>
+		<description>En las aguas turbias y acechantes, te encontrarás con un depredador ancestral: el despiadado Cocodrilo del Pantano. Con su mandíbula poderosa y escamas impenetrables, desafiará tu coraje y astucia. ¿Serás capaz de enfrentarte a este temible reptil y sobrevivir a su embestida en tu búsqueda por la victoria?</description>
+	</enemy>
+	<enemy>
+		<name>El Hipopotamo</name>
+		<damage>30</damage>
+		<health>55</health>
+		<description>En las orillas del río salvaje, te toparás con una fuerza imponente: el indomable Hipopótamo Rugiente. Con su tamaño masivo y su ferocidad oculta, desafiará tu determinación y agilidad. ¿Serás capaz de enfrentarte a este gigante acuático y mantener tu dominio en la búsqueda de la gloria?</description>
+	</enemy>
+	<enemy>
+		<name>LA PITON</name>
+		<damage>35</damage>
+		<health>60</health>
+		<description>En lo más profundo de la selva, te espera el desafío más temible: la Legendaria Pitón Suprema. Con su tamaño colosal y su astucia inigualable, esta serpiente mítica se alza como el último obstáculo en tu camino hacia la victoria. Su veneno letal y su fuerza sin igual pondrán a prueba tus habilidades al límite. ¿Serás capaz de enfrentar a la Pitón Suprema y reclamar tu lugar como el verdadero maestro de la jungla?</description>
+	</enemy>
+</enemies>

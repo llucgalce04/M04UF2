@@ -1,0 +1,7 @@
+{
+    "current_enemy": 4,
+    "enemy_health": 55,
+    "player_health": 750,
+    "player_level": 1,
+    "player_experience": 0
+}
